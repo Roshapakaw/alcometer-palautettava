@@ -36,33 +36,21 @@ function App() {
           </div>
           <div>
           <label>Bottles</label>
-          <select onChange={e => setPullot(e.target.value)}>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          </select>
+          /*<input 
+            type="number" 
+            step="1"
+            value={pullot}
+            onChange={e => setPullot(e.target.value)} 
+          />
           </div>
           <div>
           <label>Time (hours)</label>
-          <select onChange={e => setAika(e.target.value)}>
-          <option value="0">0</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          </select>
+          <input 
+            type="number" 
+            step="1"
+            value={aika}
+            onChange={e => setAika(e.target.value)} 
+          />
           </div>
           <div>
           <label>Sukupuoli</label>
